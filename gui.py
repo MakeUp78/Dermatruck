@@ -95,7 +95,8 @@ class DermographGUI:
         reset_button.pack(fill=tk.X, pady=(0, 5))
         
         # Mode selection
-        mode_label = ttk.Label(sim_frame, text="Simulation Mode:")\n        mode_label.pack(anchor=tk.W, pady=(10, 5))
+        mode_label = ttk.Label(sim_frame, text="Simulation Mode:")
+        mode_label.pack(anchor=tk.W, pady=(10, 5))
         
         self.mode_var = tk.StringVar(value='demo')
         mode_frame = ttk.Frame(sim_frame)
